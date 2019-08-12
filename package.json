@@ -1,6 +1,6 @@
 {
   "name": "@appgeist/file-exists",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Utility function to check if a file exists and return a Promise",
   "keywords": [
     "utilities",
@@ -21,6 +21,6 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "@appgeist/eslint-config-base": "^1.1.2"
+    "@appgeist/eslint-config-base": "^1.1.3"
   }
 }
