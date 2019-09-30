@@ -8,4 +8,4 @@ const { F_OK } = constants;
  * @param {string} path Filename to check
  * @returns {Promise<boolean>} A Promise that resolves with true or false
  */
-module.exports = path => new Promise(resolve => access(path, F_OK, err => resolve(!err)));
+module.exports = (path) => new Promise((resolve) => access(path, F_OK, (err) => resolve(!err)));
